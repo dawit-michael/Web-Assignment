@@ -1,0 +1,62 @@
+﻿body {
+    height: auto;
+    width: 87vw;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+div {
+    width: 97%;
+    height: 78px;
+}
+
+.link {
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.newStyle1 {
+    float: right;
+    margin-right: 20px
+}
+
+.auto-style1 {
+    float: left;
+    margin-right: 10px
+}
+
+.paragraph {
+    font-family: Poppins;
+    font-size: small;
+    font-weight: normal;
+    color: #999999;
+    padding: 30px;
+}
+
+.nav {
+    background-color: #F0F0F0;
+}
+
+.sidebar {
+    background-color: #F0F0F0;
+}
+
+.link {
+    font-family: Poppins;
+    font-size: small;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.newStyle2 {
+    font-family: Baloo;
+    margin-left:20px;
+}
+
+.newStyle3 {
+    margin-top: 60px;
+}

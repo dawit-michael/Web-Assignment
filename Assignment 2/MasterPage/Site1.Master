@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Assignment_2.MasterPage.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="../Styles/Style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style2 {
+            height: 47px;
+        }
+
+        .auto-style3 {
+            height: 1940px;
+            text-align: center;
+        }
+
+        .auto-style9 {
+            width: 1146px;
+        }
+
+        .auto-style10 {
+            height: 1079px;
+            width: 767px;
+        }
+
+        .auto-style11 {
+            width: 1146px;
+            text-align: left;
+        }
+
+        .auto-style12 {
+            text-align: left;
+            margin-left: 51px;
+        }
+
+        .auto-style13 {
+            text-align: left;
+            margin-left: 25px;
+        }
+
+        .auto-style14 {
+            text-align: left;
+            margin-left: 26px;
+        }
+        .auto-style15 {
+            background-color: #F0F0F0;
+            height: 1079px;
+        }
+        .auto-style16 {
+            width: 100%;
+            height: 1593px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <div class="auto-style3">
+            <table class="auto-style16">
+                <tr>
+                    <td class="auto-style11 nav">
+                        <asp:Label ID="Label1" runat="server" Text="Logo" CssClass="newStyle2"></asp:Label>
+                    </td>
+                    <td class="auto-style2 nav" colspan="2">
+                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="link" NavigateUrl="~/pages/Home.aspx">Home</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink2" runat="server" CssClass="link" NavigateUrl="~/pages/services.aspx">Services</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink3" runat="server" CssClass="link" NavigateUrl="~/pages/About.aspx">About</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink4" runat="server" CssClass="link" NavigateUrl="~/pages/Contact.aspx">Contact</asp:HyperLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="auto-style10">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="auto-style15">
+                        <h3 class="auto-style12">Recent</h3>
+                        <ul>
+                            <li class="auto-style13">Lorem ipsum</li>
+                            <li class="auto-style14">ipsum lorem</li>
+                            <li class="auto-style14">ioknadk oinn k</li>
+                            <li class="auto-style14">&nbsp;idosakn ioknsf</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style9">copyright 2021</td>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+
+
+    </form>
+</body>
+</html>
